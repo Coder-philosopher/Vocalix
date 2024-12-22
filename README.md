@@ -5,20 +5,20 @@ AI Voice Assistant is a web-based application that allows users to interact with
 
 ## Features
 
-- **Text to Speech**: Converts entered text to speech using available voices. Users can adjust pitch, rate, and volume.
-- **Speech to Text**: Converts speech into text in real-time.
-- **Voice Selection**: Choose from a list of available voices.
-- **Audio Download**: Download the generated speech as a `.wav` file.
-- **Dark Mode**: Toggle between light and dark themes.
-- **Responsive UI**: The app is optimized for both mobile and desktop views.
+- Text to Speech: Converts entered text to speech using available voices. Users can adjust pitch, rate, and volume.
+- Speech to Text: Converts speech into text in real-time.
+- Voice Selection: Choose from a list of available voices.
+- Audio Download: Download the generated speech as a `.wav` file.
+- Dark Mode: Toggle between light and dark themes.
+- Responsive UI: The app is optimized for both mobile and desktop views.
 
 ## Technologies Used
 
-- **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**: A utility-first CSS framework for styling the app.
-- **Lucide React Icons**: A collection of open-source icons for use in React applications.
-- **SpeechSynthesis API**: Native web API for speech synthesis (TTS).
-- **MediaRecorder API**: To record the speech and allow downloading as an audio file.
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for styling the app.
+- Lucide React Icons: A collection of open-source icons for use in React applications.
+- SpeechSynthesis API: Native web API for speech synthesis (TTS).
+- MediaRecorder API: To record the speech and allow downloading as an audio file.
 
 ## Installation
 
@@ -113,12 +113,12 @@ For any questions or inquiries, feel free to reach out to [Abdullah](https://git
 ```
 
 ### Key Sections in the README:
-1. **Project Overview**: Describes the purpose and features of the app.
-2. **Technologies Used**: Lists the technologies involved in building the app.
-3. **Installation Instructions**: Provides a step-by-step guide for setting up the project locally.
-4. **Usage**: Explains how to use both the text-to-speech and speech-to-text features of the app.
-5. **Code Structure**: Gives an overview of the project directory and organization.
-6. **Contributing**: Provides instructions for how others can contribute to the project.
-7. **License and Acknowledgements**: Mentions the open-source license and credits any external libraries or tools.
+1. Project Overview: Describes the purpose and features of the app.
+2. Technologies Used: Lists the technologies involved in building the app.
+3. Installation Instructions: Provides a step-by-step guide for setting up the project locally.
+4. Usage: Explains how to use both the text-to-speech and speech-to-text features of the app.
+5. Code Structure: Gives an overview of the project directory and organization.
+6. Contributing: Provides instructions for how others can contribute to the project.
+7. License and Acknowledgements: Mentions the open-source license and credits any external libraries or tools.
 
 This template should help provide clarity and a good structure for anyone looking to understand or contribute to your project.
