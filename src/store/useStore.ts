@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 
 interface AppState {
   isDarkMode: boolean;
@@ -13,15 +14,22 @@ interface AppState {
   setVolume: (volume: number) => void;
 }
 
-export const useStore = create<AppState>((set) => ({
-  isDarkMode: false,
-  toggleDarkMode: () => set((state) => ({ isDarkMode: !state.isDarkMode })),
-  selectedVoice: '',
-  setSelectedVoice: (voice) => set({ selectedVoice: voice }),
-  pitch: 1,
-  setPitch: (pitch) => set({ pitch }),
-  rate: 1,
-  setRate: (rate) => set({ rate }),
-  volume: 1,
-  setVolume: (volume) => set({ volume }),
-}));
+export const useStore = create<AppState>()(
+  persist(
+    (set) => ({
+      isDarkMode: true, // Default to dark mode
+      toggleDarkMode: () => set((state) => ({ isDarkMode: !state.isDarkMode })),
+      selectedVoice: '',
+      setSelectedVoice: (voice) => set({ selectedVoice: voice }),
+      pitch: 1,
+      setPitch: (pitch) => set({ pitch }),
+      rate: 1,
+      setRate: (rate) => set({ rate }),
+      volume: 1,
+      setVolume: (volume) => set({ volume }),
+    }),
+    {
+      name: 'voice-assistant-storage',
+    }
+  )
+);
