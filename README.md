@@ -1,6 +1,6 @@
 # Vocalix
 
-![Vocalix Logo](https://github.com/Coder-philosopher/Vocalix/src/downlaod.png)
+![Vocalix Logo](https://github.com/Coder-philosopher/Vocalix/src/download.png)
 
 Vocalix is a modern, feature-rich voice assistant web application that provides powerful text-to-speech and speech-to-text capabilities in an elegant, futuristic interface.
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import { NextUIProvider } from "@nextui-org/react";
+
 
 export interface ThemeProviderProps {
   children: React.ReactNode;
@@ -13,9 +13,7 @@ export function ThemeProvider({
 }: ThemeProviderProps) {
   return (
     <NextThemesProvider defaultTheme={defaultTheme} attribute="class">
-      <NextUIProvider>
         {children}
-      </NextUIProvider>
     </NextThemesProvider>
   );
 } 
