@@ -13,15 +13,15 @@ function App() {
     <div className={`min-h-screen ${isDarkMode ? 'dark bg-gray-900' : 'bg-gray-50'}`}>
       <div className="container mx-auto px-4 py-8">
         <header className="flex justify-between items-center mb-8">
-          <h1 className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-            AI Voice Assistant{' '}
+          <h1 className={`text-3xl font-bold hover:cursor-not-allowed ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
+            AI Voice Assistant by{' '}
             <a
               href="https://github.com/Coder-philosopher"
               target="_blank"
               rel="noopener noreferrer"
               className="text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text font-bold hover:opacity-80 transition-opacity"
             >
-              by Abdullah
+             Abdullah
             </a>
           </h1>
           <button
