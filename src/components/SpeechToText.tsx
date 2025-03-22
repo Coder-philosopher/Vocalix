@@ -42,7 +42,7 @@ export function SpeechToText() {
     });
 
     Packer.toBlob(doc).then((blob) => {
-      saveAs(blob, 'abdullah.docs');
+      saveAs(blob, 'abdullah.docx');
     });
   };
 
